@@ -1,11 +1,11 @@
-About dotnet-interactive
-========================
+About dotnet-interactive-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dotnet-interactive-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dotnet/interactive
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dotnet-interactive-feedstock/blob/main/LICENSE.txt)
 
 Summary: .NET Interactive takes the power of .NET and embeds it into your interactive experiences
 
@@ -31,6 +31,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11356&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dotnet-interactive-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11356&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dotnet-interactive-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11356&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dotnet-interactive-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -162,5 +176,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@acesnik](https://github.com/acesnik/)
 * [@dhirschfeld](https://github.com/dhirschfeld/)
 
